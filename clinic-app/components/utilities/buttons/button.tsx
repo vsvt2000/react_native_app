@@ -1,6 +1,6 @@
+import { ClinicButtonProps } from "@stores/schema_stores/button/button_store";
 import React, { useEffect } from "react";
-import { Button, StyleProp, Text, View, ViewStyle } from "react-native";
-import { ClinicButtonProps } from "./button_store";
+import { Button, View } from "react-native";
 
 function ClinicButton(
   props: {

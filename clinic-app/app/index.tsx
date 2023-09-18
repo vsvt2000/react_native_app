@@ -1,7 +1,8 @@
-import { Text, View } from "react-native";
-import HomePage from "../components/homepage/homepage_component";
+import HomePage from "@components/homepage/homepage_component";
+import { registerRootComponent } from "expo";
+import { View } from "react-native";
 
-function Index() {
+export default function Home() {
   return (
     <View>
       <HomePage />
@@ -9,4 +10,4 @@ function Index() {
   );
 }
 
-export default Index;
+registerRootComponent(Home);

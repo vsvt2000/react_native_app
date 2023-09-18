@@ -7,6 +7,7 @@ export function getHomePageStyles() {
       alignItems: "center",
       backgroundColor: "#239D70",
       height: "100%",
+      width: "100%",
     },
   }).container;
 }
